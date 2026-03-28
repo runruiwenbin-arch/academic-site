@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dr. Jane Doe · Computational Physics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">JD</div>
+        <div>
+          <span class="brand-name">Dr. Jane Doe</span>
+          <span class="brand-role">Associate Professor · Computational Physics</span>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="site-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="about">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Computational Physics · Quantum Materials</p>
+            <h1>Exploring emergent behaviour in low-dimensional systems.</h1>
+            <p>
+              I lead the Quantum Complexity Lab at Example University, where we
+              investigate how topology and disorder shape the transport
+              properties of novel materials. My work bridges analytical theory,
+              large-scale simulation, and collaborations with experimental
+              groups around the world.
+            </p>
+            <div class="hero-cta">
+              <a class="button" href="#research">Explore Research</a>
+              <a class="button ghost" href="assets/Jane-Doe-CV.pdf" download>Download CV</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a></li>
+              <li><a href="https://orcid.org" target="_blank" rel="noreferrer">ORCID</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="mailto:jane.doe@example.edu">jane.doe@example.edu</a></li>
+            </ul>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+            <div class="orb orb-c"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="research">
+        <div class="section-header">
+          <p class="eyebrow">Research Themes</p>
+          <h2>Current directions</h2>
+          <p>
+            We combine analytical techniques with high-performance computing to
+            understand emergent phenomena at the nanoscale. These focus areas
+            highlight ongoing projects and opportunities for collaboration.
+          </p>
+        </div>
+        <div class="research-grid">
+          <article class="research-card">
+            <h3>Topological transport</h3>
+            <p>
+              Revealing the role of Berry curvature in charge transport across
+              engineered heterostructures.
+            </p>
+          </article>
+          <article class="research-card">
+            <h3>Machine-learned Hamiltonians</h3>
+            <p>
+              Building surrogate models that accelerate discovery of material
+              phases under extreme conditions.
+            </p>
+          </article>
+          <article class="research-card">
+            <h3>Quantum thermalization</h3>
+            <p>
+              Probing how disorder and interactions govern relaxation in
+              isolated quantum systems.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="publications">
+        <div class="section-header">
+          <p class="eyebrow">Selected Publications</p>
+          <h2>Recent highlights</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time datetime="2025">2025</time>
+            <div>
+              <h3>Topology-driven heat transport in moiré lattices</h3>
+              <p>
+                <em>Physical Review Letters</em>. Co-authored with L. Nguyen and
+                A. Smith. Demonstrates tunable thermal Hall effects using
+                programmable strain fields.
+              </p>
+              <a href="#">Read paper</a>
+            </div>
+          </article>
+          <article>
+            <time datetime="2024">2024</time>
+            <div>
+              <h3>Self-supervised discovery of correlated phases</h3>
+              <p>
+                <em>Nature Materials</em>. Presents a graph neural network that
+                predicts phase diagrams directly from experimental observables.
+              </p>
+              <a href="#">Read paper</a>
+            </div>
+          </article>
+          <article>
+            <time datetime="2023">2023</time>
+            <div>
+              <h3>Nonequilibrium dynamics in quasi-1D systems</h3>
+              <p>
+                <em>Science Advances</em>. Provides a unified description of
+                prethermalization across multiple experimental platforms.
+              </p>
+              <a href="#">Read paper</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="teaching">
+        <div class="section-header">
+          <p class="eyebrow">Teaching & Mentorship</p>
+          <h2>Courses and advising</h2>
+        </div>
+        <div class="teaching-grid">
+          <article>
+            <h3>Graduate seminar: Quantum transport</h3>
+            <p>
+              Weekly deep dive into modern transport theory with rotating guest
+              lectures from experimental collaborators.
+            </p>
+          </article>
+          <article>
+            <h3>Undergraduate lab: Computational physics</h3>
+            <p>
+              Project-based introduction to scientific computing, covering
+              numerical PDEs, Monte Carlo, and GPU acceleration.
+            </p>
+          </article>
+          <article>
+            <h3>Open positions</h3>
+            <p>
+              I welcome motivated graduate students and postdocs. Email me a CV
+              and a short statement of your research interests.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="news">
+        <div class="section-header">
+          <p class="eyebrow">Lab Updates</p>
+          <h2>News & events</h2>
+        </div>
+        <ul class="news-list">
+          <li>
+            <time datetime="2026-03-14">Mar 14, 2026</time>
+            <p>Keynote at the International Conference on Quantum Materials.</p>
+          </li>
+          <li>
+            <time datetime="2026-02-02">Feb 2, 2026</time>
+            <p>
+              New preprint on disorder-assisted superconductivity is live on
+              arXiv.
+            </p>
+          </li>
+          <li>
+            <time datetime="2025-12-10">Dec 10, 2025</time>
+            <p>Congratulations to PhD student Priya Sharma on her successful defense.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section contact reveal" id="contact">
+        <div class="section-header">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Contact</h2>
+          <p>
+            Send an email or schedule a meeting to discuss collaborations,
+            speaking engagements, or mentoring opportunities.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:jane.doe@example.edu">jane.doe@example.edu</a>
+          </div>
+          <div>
+            <h3>Office</h3>
+            <p>Physics Building 420, Example University, City, Country</p>
+          </div>
+          <div>
+            <h3>Office hours</h3>
+            <p>Wednesdays 14:00–16:00 or by appointment</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="copyright-year"></span> Jane Doe. Built with care for open science.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
